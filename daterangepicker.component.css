@@ -270,6 +270,9 @@
     margin: 0 auto;
     padding: 0;
     width: 100%;
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
 }
 
 .ranges li {
@@ -303,7 +306,9 @@
         width: auto;
     }
     .daterangepicker .ranges ul {
-        width: 160px;
+		columns: 2;
+		-webkit-columns: 2;
+		-moz-columns: 2;
     }
     .daterangepicker.single .ranges ul {
         width: 100%;
