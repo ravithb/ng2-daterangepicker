@@ -5,7 +5,7 @@ import { DaterangepickerConfig } from './config.service';
 
 import * as $ from "jquery";
 import * as moment from 'moment';
-import 'bootstrap-daterangepicker';
+import 'rb-bootstrap-daterangepicker';
 
 @Directive({
     selector: '[daterangepicker]',
